@@ -1,0 +1,8 @@
+{
+  "name": "Sarveshwar Fitness",
+  "description": "Train with purpose at Sarveshwar Fitness — a clean, disciplined and professional fitness environment in Kurla West, Mumbai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

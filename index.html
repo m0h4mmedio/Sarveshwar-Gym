@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Sarveshwar Fitness | Premium Gym in Kurla West, Mumbai</title>
+    <meta name="description" content="Train with purpose at Sarveshwar Fitness — a clean, disciplined and professional fitness environment in Kurla West, Mumbai. Modern equipment, personal training, and air-conditioned facilities." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sarveshwar Fitness | Premium Gym in Kurla West, Mumbai" />
+    <meta property="og:description" content="Train with purpose at Sarveshwar Fitness — a clean, disciplined and professional fitness environment in Kurla West, Mumbai." />
+    <meta property="og:image" content="/images/gym-hero.jpg" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sarveshwar Fitness | Premium Gym in Kurla West, Mumbai" />
+    <meta name="twitter:description" content="Train with purpose at Sarveshwar Fitness — a clean, disciplined and professional fitness environment in Kurla West, Mumbai." />
+    <meta name="twitter:image" content="/images/gym-hero.jpg" />
+
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#070908" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Sarveshwar" />
+
+    <!-- Typography: Montserrat (Headers) + Open Sans (Subheaders & Body) + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) for LocalBusiness / ExerciseGym -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExerciseGym",
+      "name": "Sarveshwar Fitness",
+      "image": "/images/gym-hero.jpg",
+      "telephone": "+918433650068",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Police Station, 216/1 Takia Ward, Sarveshwar Mandir Road, Kurla West",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400070",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.0700,
+        "longitude": 72.8770
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "06:00",
+          "closes": "23:00"
+        }
+      ],
+      "priceRange": "₹₹",
+      "slogan": "Train Hard. Stay Disciplined."
+    }
+    </script>
+  </head>
+  <body class="bg-[#070908] text-[#f2f3ee] antialiased selection:bg-[#1f472e] selection:text-[#f2f3ee]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
+

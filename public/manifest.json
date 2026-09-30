@@ -1,0 +1,24 @@
+{
+  "name": "Sarveshwar Fitness - Kurla West",
+  "short_name": "Sarveshwar",
+  "description": "Premium, disciplined gym in Kurla West, Mumbai. Official member portal & fee schedule.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070908",
+  "theme_color": "#070908",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

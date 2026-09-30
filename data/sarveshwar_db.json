@@ -1,0 +1,369 @@
+{
+  "lastPriceUpdate": "2026-09-29T05:00:00.749Z",
+  "memberships": [
+    {
+      "id": "1m",
+      "duration": "1 Month",
+      "cardioPrice": 1799,
+      "nonCardioPrice": 1299,
+      "isPopular": false,
+      "badge": "",
+      "active": true,
+      "cardioFeatures": [
+        "Full Strength & Dumbbell Floor Access",
+        "Cardio Deck (Treadmills, Spin Cycles)",
+        "Initial Posture & Exercise Form Check",
+        "Certified Floor Trainer Assistance",
+        "Daily Locker & Clean Restroom Access"
+      ],
+      "nonCardioFeatures": [
+        "Full Resistance & Free Weights Floor",
+        "Olympic Barbells, Benches & Dumbbell Bay",
+        "Initial Posture & Exercise Form Check",
+        "Certified Floor Trainer Assistance",
+        "Daily Locker & Clean Restroom Access"
+      ]
+    },
+    {
+      "id": "3m",
+      "duration": "3 Months",
+      "cardioPrice": 3999,
+      "nonCardioPrice": 3499,
+      "isPopular": false,
+      "badge": "BUILD YOUR BASE",
+      "active": true,
+      "cardioFeatures": [
+        "Complete 90-Day Routine Schedule Card",
+        "Unlimited Strength + Cardio Floor Access",
+        "Baseline Biometrics & Movement Screening",
+        "Form Correction & Spotting Support",
+        "Nutrition & Meal Timing Guidelines"
+      ],
+      "nonCardioFeatures": [
+        "Complete 90-Day Strength Routine Card",
+        "Unrestricted Dumbbell & Cable Stations",
+        "Baseline Biometrics & Movement Screening",
+        "Form Correction & Spotting Support",
+        "Nutrition & Protein Timing Guidelines"
+      ]
+    },
+    {
+      "id": "6m",
+      "duration": "6 Months",
+      "cardioPrice": 6499,
+      "nonCardioPrice": 5499,
+      "isPopular": true,
+      "badge": "MEMBER FAVOURITE",
+      "active": true,
+      "cardioFeatures": [
+        "180 Days Continuous Progressive Overload",
+        "Full Strength & Cardio Deck Access",
+        "Monthly Body Composition & Metric Reviews",
+        "1 Complimentary Freeze Week (Travel/Exams)",
+        "Priority Trainer Form Optimization"
+      ],
+      "nonCardioFeatures": [
+        "180 Days Heavy Compound Progression",
+        "Olympic Platforms & Heavy Cable Towers",
+        "Monthly Body Composition & Metric Reviews",
+        "1 Complimentary Freeze Week (Travel/Exams)",
+        "Priority Trainer Form Optimization"
+      ]
+    },
+    {
+      "id": "12m",
+      "duration": "12 Months",
+      "cardioPrice": 11499,
+      "nonCardioPrice": 9999,
+      "isPopular": false,
+      "badge": "OWN YOUR YEAR",
+      "active": true,
+      "cardioFeatures": [
+        "365 Days Unrestricted All-Access Pass",
+        "Personalized Annual Periodization Plan",
+        "2 Complimentary Membership Freeze Weeks",
+        "Dedicated Locker Priority Allocation",
+        "Best Value Rate (~₹833/month equivalent)"
+      ],
+      "nonCardioFeatures": [
+        "365 Days Unrestricted Strength Floor Access",
+        "Personalized Annual Periodization Plan",
+        "2 Complimentary Membership Freeze Weeks",
+        "Dedicated Locker Priority Allocation",
+        "Best Value Rate (~₹833/month equivalent)"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "squat_racks",
+      "title": "Squat Racks & Heavy Compound Zone",
+      "description": "Dedicated squat rack station with Olympic barbells, calibrated cast plates, and plate-loaded leg extension gear for building foundational power.",
+      "image": "/images/equipment-04.jpg",
+      "tag": "Squat & Racks",
+      "active": true
+    },
+    {
+      "id": "cardio",
+      "title": "Dedicated Cardio & Treadmill Lineup",
+      "description": "Commercial treadmills and endurance machines positioned along the mirrored wall to optimize stamina, heart rate, and metabolic fat loss.",
+      "image": "/images/equipment-01.jpg",
+      "tag": "Cardio",
+      "active": true
+    },
+    {
+      "id": "freeweights",
+      "title": "Free Weights & Dumbbell Benches",
+      "description": "Solid steel dumbbell sets, Olympic barbells, and heavy-duty adjustable benches for bench presses, dumbbell rows, and upper body hypertrophy.",
+      "image": "/images/equipment-02.jpg",
+      "tag": "Free Weights",
+      "active": true
+    },
+    {
+      "id": "machines",
+      "title": "Targeted Isolation Machines",
+      "description": "Pin-selected and cable stations providing continuous mechanical tension to isolate chest, back, and arm muscle groups with joint-safe angles.",
+      "image": "/images/equipment-03.jpg",
+      "tag": "Machines",
+      "active": true
+    },
+    {
+      "id": "aircon",
+      "title": "Air-Conditioned Training Arena",
+      "description": "Spacious, climate-controlled workout floor featuring dedicated bench press stations, rubberized drop zones, and constant fresh airflow.",
+      "image": "/images/gym-interior.jpg",
+      "tag": "Climate Floor",
+      "active": true
+    },
+    {
+      "id": "pt",
+      "title": "1-on-1 Personal Trainer Coaching",
+      "description": "Hands-on personal coaching covering posture alignment, rep pacing, and progressive overload tracking to ensure peak athletic results.",
+      "image": "/images/personal-training.jpg",
+      "tag": "Coaching",
+      "active": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "image": "/images/gym-hero.jpg",
+      "caption": "Main training arena and free weight lines",
+      "category": "Floor",
+      "active": true
+    },
+    {
+      "id": "g2",
+      "image": "/images/gym-interior.jpg",
+      "caption": "Air-conditioned main gym floor and machine stations",
+      "category": "Interior",
+      "active": true
+    },
+    {
+      "id": "g3",
+      "image": "/images/equipment-01.jpg",
+      "caption": "Heavy dumbbell rack and bench area",
+      "category": "Equipment",
+      "active": true
+    },
+    {
+      "id": "g4",
+      "image": "/images/equipment-02.jpg",
+      "caption": "Commercial grade cardio machines lineup",
+      "category": "Cardio",
+      "active": true
+    },
+    {
+      "id": "g5",
+      "image": "/images/equipment-03.jpg",
+      "caption": "Multi-functional cable station and lat pulldown unit",
+      "category": "Equipment",
+      "active": true
+    },
+    {
+      "id": "g6",
+      "image": "/images/equipment-04.jpg",
+      "caption": "Strength resistance and seated row equipment",
+      "category": "Equipment",
+      "active": true
+    },
+    {
+      "id": "g7",
+      "image": "/images/personal-training.jpg",
+      "caption": "Personal trainer instructing proper form and rep control",
+      "category": "Training",
+      "active": true
+    },
+    {
+      "id": "g8",
+      "image": "/images/pravin-sakpal.jpg",
+      "caption": "Mentor Shri Pravin Sakpal — Chhatrapati Award Winner",
+      "category": "Pedigree",
+      "active": true
+    },
+    {
+      "id": "g9",
+      "image": "/images/pravin-award.jpg",
+      "caption": "Prestigious Chhatrapati Shivaji Maharaj Krida Puraskar ceremony",
+      "category": "Pedigree",
+      "active": true
+    },
+    {
+      "id": "g10",
+      "image": "/images/gallery-01.jpg",
+      "caption": "Gym entrance and reception counter",
+      "category": "Facility",
+      "active": true
+    },
+    {
+      "id": "g11",
+      "image": "/images/gallery-02.jpg",
+      "caption": "Clean, disciplined workout zone with mirror walls",
+      "category": "Floor",
+      "active": true
+    },
+    {
+      "id": "g12",
+      "image": "/images/gallery-03.jpg",
+      "caption": "Leg press and lower body strength station",
+      "category": "Equipment",
+      "active": true
+    },
+    {
+      "id": "g13",
+      "image": "/images/gallery-04.jpg",
+      "caption": "Plate loaded machinery and dumbbell racks",
+      "category": "Equipment",
+      "active": true
+    }
+  ],
+  "content": {
+    "brandName": "SARVESHWAR FITNESS",
+    "brandTagline": "TRAIN HARD. STAY DISCIPLINED.",
+    "locationCity": "Kurla West, Mumbai",
+    "heroHeadline": "TRAIN HARD.\nSTAY DISCIPLINED.",
+    "heroSubhead": "A premium, disciplined, clean and professional fitness environment in Kurla West, Mumbai. Built for those who respect the iron and show up every single day.",
+    "heroBadge": "PREMIUM FITNESS ENVIRONMENT · KURLA WEST",
+    "aboutTitle": "BUILT FOR PEOPLE WHO TAKE FITNESS SERIOUSLY.",
+    "aboutParagraph1": "At Sarveshwar Fitness, we have eliminated the distractions of commercial gym chains to focus on what actually produces results: heavy, properly maintained equipment, clean air-conditioned floors, certified guidance, and an unmistakable culture of respect and grit.",
+    "aboutParagraph2": "Located in Kurla West, our facility serves both competitive lifters and dedicated individuals striving for everyday athletic excellence. We enforce a clean, orderly gym etiquette so that every training session is uninterrupted and purposeful.",
+    "mentor": {
+      "name": "Shri Pravin Sakpal",
+      "honorific": "CHHATRAPATI AWARD WINNER",
+      "award": "Chhatrapati Shivaji Maharaj Krida Puraskar",
+      "bio": "Guided by the principles of Maharashtra State Chhatrapati Award Winner Shri Pravin Sakpal. A legacy of genuine Indian bodybuilding excellence, clean sportsmanship, and relentless discipline infused into our training philosophy.",
+      "portraitImage": "/images/pravin-sakpal-headshot.jpg",
+      "awardImage": "/images/pravin-award-cropped.jpg"
+    },
+    "contact": {
+      "phone": "084336 50068",
+      "phoneRaw": "+918433650068",
+      "whatsapp": "918433650068",
+      "address": "Near Police Station, 216/1 Takia Ward, Sarveshwar Mandir Road, Kurla West, Kurla, Mumbai, Maharashtra 400070",
+      "hoursWeekday": "6:00 AM – 11:00 PM (Monday – Saturday)",
+      "hoursSunday": "Sunday: Closed for deep maintenance",
+      "ladiesHours": "1:00 PM – 4:00 PM (Dedicated Women-Only Hours)",
+      "googleMapsEmbed": "https://www.google.com/maps?q=Sarveshwar%20Mandir%20Road%2C%20Kurla%20West%2C%20Mumbai%20400070&output=embed",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sarveshwar+Fitness+Kurla+West+Mumbai"
+    },
+    "quickStats": [
+      {
+        "number": "01",
+        "title": "EST. 2017",
+        "description": "Over 8 years of trusted bodybuilding and athletic conditioning in Kurla West."
+      },
+      {
+        "number": "02",
+        "title": "FLOOR COACHING",
+        "description": "Attentive spotters and safe form correction on all compound lifts."
+      },
+      {
+        "number": "03",
+        "title": "1 PM – 4 PM",
+        "description": "Dedicated women-only training hours with female trainer assistance."
+      },
+      {
+        "number": "04",
+        "title": "HEAVY IRON",
+        "description": "Fully air-conditioned floor equipped with Olympic barbells, squat racks & cardio deck."
+      }
+    ],
+    "rules": [
+      {
+        "number": "01",
+        "title": "TOWEL IS MANDATORY",
+        "description": "Wipe benches after use. Hygiene is a non-negotiable sign of respect."
+      },
+      {
+        "number": "02",
+        "title": "GOOD BEHAVIOUR IS ESSENTIAL",
+        "description": "Treat staff, trainers, and fellow lifters with dignity and respect."
+      },
+      {
+        "number": "03",
+        "title": "NO DISRUPTIVE CONDUCT",
+        "description": "Loud disturbance, inappropriate speech, and rowdy behaviour are not tolerated."
+      },
+      {
+        "number": "04",
+        "title": "RE-RACK ALL WEIGHTS",
+        "description": "Always return dumbbells, barbells, and plates to their designated holders."
+      },
+      {
+        "number": "05",
+        "title": "CLEAN INDOOR FOOTWEAR",
+        "description": "Training shoes must be clean before stepping onto the rubber workout floor."
+      },
+      {
+        "number": "06",
+        "title": "DEDICATED LADIES HOURS",
+        "description": "Every afternoon from 1:00 PM to 4:00 PM is reserved exclusively for women."
+      }
+    ]
+  },
+  "leads": [
+    {
+      "id": "lead-1790802335966-llaf",
+      "name": "Mohammed Palasara",
+      "phone": "9930326773",
+      "goal": "Hypertrophy / Muscle Building",
+      "notes": "Selected plan: 6 Months (Cardio Included)",
+      "status": "new",
+      "createdAt": "2026-09-30T21:05:35.966Z"
+    },
+    {
+      "id": "lead-1790659806632-10ig",
+      "name": "Ayesha Siddiqui",
+      "phone": "9820556677",
+      "planTitle": "6 Months (Cardio Included)",
+      "goal": "Ladies Special Hours (1 PM - 4 PM)",
+      "notes": "Wants trial visit on Wednesday",
+      "status": "new",
+      "createdAt": "2026-09-29T05:30:06.632Z"
+    },
+    {
+      "id": "lead-1",
+      "name": "Adil Shaikh",
+      "phone": "9820145678",
+      "planId": "6m",
+      "planTitle": "6 Months",
+      "planType": "cardio",
+      "goal": "Muscle building & conditioning",
+      "status": "contacted",
+      "notes": "Interested in evening slot after 7 PM",
+      "createdAt": "2026-09-27T14:20:00.000Z"
+    },
+    {
+      "id": "lead-2",
+      "name": "Pooja Patil",
+      "phone": "9167234510",
+      "planId": "3m",
+      "planTitle": "3 Months",
+      "planType": "cardio",
+      "goal": "Weight loss and cardio fitness",
+      "status": "new",
+      "notes": "Inquired about Ladies-Only hours (1 PM - 4 PM)",
+      "createdAt": "2026-09-28T09:15:00.000Z"
+    }
+  ]
+}
